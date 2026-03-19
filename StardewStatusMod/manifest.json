@@ -1,0 +1,10 @@
+{
+  "Name": "Stardew Status Mod",
+  "Author": "breadd0011",
+  "Version": "1.0.0",
+  "Description": "Sends the current Stardew Valley date to an external API so Discord can display farm status.",
+  "UniqueID": "breadd.StardewStatusMod",
+  "EntryDll": "StardewStatusMod.dll",
+  "MinimumApiVersion": "4.4.0",
+  "UpdateKeys": []
+}
