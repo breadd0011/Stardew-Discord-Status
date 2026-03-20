@@ -11,7 +11,11 @@ A small Stardew Valley + Discord project that updates a Discord channel name wit
 - A Discord bot with permission to manage channels
 
 ### 2) Download the mod
-Download the latest `StardewStatusMod` release from the repo's **Releases** page and extract it into your Stardew Valley `Mods` folder.
+Download the latest `StardewStatusMod` here:
+
+[Download StardewStatusMod.zip](https://github.com/breadd0011/Stardew-Discord-Status/releases/latest/download/StardewStatusMod.zip)
+
+Then extract it into your Stardew Valley `Mods` folder.
 
 Your mod folder should contain files like:
 - `StardewStatusMod.dll`
@@ -44,8 +48,7 @@ Open `appsettings.json` and add your Discord IDs:
 }
 ```
 ### 5) Run the API locally
-
-```text
+```bash
 dotnet run
 ```
 
@@ -86,5 +89,4 @@ The mod will send the current in-game date to the local API, and the API will up
 ## Notes
 - No Docker is needed for this setup.
 - Only the API needs to be cloned and run locally.
-- User Secrets are recommended for local tokens/keys.
 - The API and game should be running on the same machine for the default localhost setup.
